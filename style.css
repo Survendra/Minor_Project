@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.main{
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(directory-img.webp);
+}
+.nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.img1{
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+
+}
+li{
+    font-size: small;
+    margin-left:40px;
+}
+select{
+    border: none;
+    background-color: transparent;
+}
+.btn-p1{
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.box-btw{
+    height: 80px;
+    width: 70%;
+    border: 0.5px solid rgb(174, 169, 169);
+    margin: 0 15%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.btn1{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: 0.2px solid rgb(146, 141, 141);
+    text-align: left;
+}
+.btn2{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 0.2px solid rgb(146, 141, 141);
+    text-align: left;
+}
+.btn4{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#h1{
+    color: red;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+h2{
+    margin-right: 6px;
+}
+
+.category{
+    height: 200px;
+    width: 70%;
+    margin: 0 15%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.c1{
+    height: 325px;
+    width: 325px;
+    border: 0.5px solid rgb(105, 101, 101);
+    text-align: center;
+    
+}
+.img2{
+    height: 180px;
+    width: 325px;
+}
+.c1 p{
+    margin-top: 30px;
+}
+.btn5{
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: white;
+    border: 0.2px solid rgb(105, 101, 101);
+    border-radius: 20px;
+    
+}
