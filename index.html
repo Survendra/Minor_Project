@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>SPSU LOCAL DIRECTORY</title>
 </head>
 <body>
-    <div class="main">
-        <div class="nav">
+    <div class="main">                 
+        <nav>
             <img src="WhatsApp Image 2023-10-07 at 19.11.38_119d946b.jpg" class="img1">
             <ul>
-                <li>Home<select name="" id=""></select></li>
-                <li>Listing<select name="" id=""></select></li>
-                <li>Blog<select name="" id=""></select></li>
-                <li>Pages<select name="" id=""></select></li>
+                <li><button>Home</button></li>
+                <li><button>Listing</button></li>
+                <li><button>Blog</button></li>
+                <li><button>Pages</button></li>
             </ul>
-            <p>
-                <button class="btn-p1">Sign in or Register</button>
-                <button class="btn-p1">Add Listing</button>
-            </p>
-        </div>
+            <!-- <p> -->
+            <button class="btn-p1"><i class="fa-regular fa-user"></i>Sign in or Register</button>
+                <!-- <button class="btn-p1"><i class="fa-solid fa-plus"></i>Add Listing</button> -->
+            <!-- </p> -->
+        </nav>         
         <hr>
     </div>
     
     <div class="box-btw">
-        <button class="btn1">Keywords...</button>
-        <button class="btn2">Filter by category</button>
-        <button class="btn2">Location</button>
+        <!-- <button class="btn1">Keywords...</button> -->
+        <input type="text" placeholder="Keywords..." class="inp1">
+        <button class="btn2"><i class="fa-solid fa-layer-group"></i>Filter by category<select name="" id=""></select></button>
+        <button class="btn2"><i class="fa-solid fa-location-crosshairs"></i>Location</button>
         <button class="btn4">Search</button>
     </div>
     <div class="text">
@@ -41,7 +43,7 @@
             <button class="btn5">Browse</button>
         </div>
         <div class="education c1">
-            <img src="edu-pic.webp" class="img2">
+            <img src="edu-pic.jpg" class="img2">
             <p>Education</p>
             <button class="btn5">Browse</button>
         </div>
@@ -51,3 +53,5 @@
             <button class="btn5">Browse</button>
         </div>
     </div>
+</body>
+</html>
