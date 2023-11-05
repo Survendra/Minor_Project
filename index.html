@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="local_directory.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>SPSU LOCAL DIRECTORY</title>
 </head>
 <body>
-    <div class="main">                 
+    <div class="container-fluid main"> 
+        <!-- <img src="SPSU-Banner-1.jpg" alt="" class="main_img"> -->
         <nav>
-            <img src="WhatsApp Image 2023-10-07 at 19.11.38_119d946b.jpg" class="img1">
+            <img src="logo_main.png" class="img1">
             <ul>
-                <li><button>Home</button></li>
-                <li><button>Listing</button></li>
-                <li><button>Blog</button></li>
-                <li><button>Pages</button></li>
+                <li><a href="local_directory.html">Home</a></li>
+                <li><a href="">Listing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pages</a></li>
             </ul>
             <!-- <p> -->
-            <button class="btn-p1"><i class="fa-regular fa-user"></i>Sign in or Register</button>
+            <!-- <button class="btn-p1"><i class="fa-regular fa-user"></i>Sign in</button> -->
+            <a href="sign_in.html" id="sign_in_form"><i class="fa-regular fa-user"></i>Sign in</a>
                 <!-- <button class="btn-p1"><i class="fa-solid fa-plus"></i>Add Listing</button> -->
             <!-- </p> -->
         </nav>         
-        <hr>
+        
     </div>
     
-    <div class="box-btw">
+    <div class=" box-btw">
         <!-- <button class="btn1">Keywords...</button> -->
         <input type="text" placeholder="Keywords..." class="inp1">
         <button class="btn2"><i class="fa-solid fa-layer-group"></i>Filter by category<select name="" id=""></select></button>
+        <!-- <p class="btn2 btn3">Filter by category<select name="Filter by category" id=""></select></p> -->
         <button class="btn2"><i class="fa-solid fa-location-crosshairs"></i>Location</button>
         <button class="btn4">Search</button>
     </div>
-    <div class="text">
+    <div class="container text">
         <h2>Most Popular</h2>
         <h2 id="h1">Category</h2>
     </div>
-    <div class="category">
+    <div class=" category">
         <div class="business c1">
             <img src="business-pic.webp" class="img2">
             <p>Business</p>
@@ -53,5 +57,17 @@
             <button class="btn5">Browse</button>
         </div>
     </div>
+
+    <footer>
+        <div class="appicon">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p>© 2023 Copyright: Directorify</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
 </body>
 </html>

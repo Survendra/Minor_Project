@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.container{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container img{
+    height: 150px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+.container input{
+    height: 40px;
+    width: 85%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #2c00ef;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.forflex{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+#check1{
+    height: 20px;
+    width: 20px;   
+    color: #2c00ef;
+    margin-bottom: 0;
+}
+.checkflex{
+    display: flex;
+}
+.checkflex p{
+    padding-top: 3px;
+}
+#checkpera2{
+    color: #2c00ef;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+button{
+    height: 50px;
+    width: 85%;
+    background-color: #2c00ef;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width:  550px){
+    .container{
+        border: none;
+    }
+}
