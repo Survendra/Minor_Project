@@ -195,3 +195,17 @@ footer{
 footer p{
     margin-left: 20px;
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
